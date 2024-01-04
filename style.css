@@ -1,0 +1,105 @@
+/* 1. call the tag (tag name)
+2. call using ID (#)
+3. call using class (.) */
+
+
+/* 1. inline css
+2. internal css
+3. external css */
+
+html,
+body,
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    height: 100%;
+    width: 50%;
+    background: url("https://wallpapers.com/images/featured/ferrari-cglqdk3qgwuhk35k.jpg");
+    background-size: cover;
+    background-position: left;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right>form {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(223, 244, 255);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+form>h1 {
+    color: rgb(34, 152, 255);
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    outline: none;
+    margin-bottom: 20px;
+    height: 40px;
+    background: none;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: rgb(34, 152, 255);
+    color: white;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.left>h1 {
+    font-size: 80px;
+    color: yellow;
+}
+
+p {
+    font-size: 20px;
+}
+
+hr {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+}
