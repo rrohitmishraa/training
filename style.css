@@ -28,7 +28,7 @@ body,
 .left {
     display: flex;
     flex-direction: column;
-    padding: 80px;
+    padding: 8 0px;
     height: 100%;
     width: 50%;
     background: url("https://wallpapers.com/images/featured/ferrari-cglqdk3qgwuhk35k.jpg");
